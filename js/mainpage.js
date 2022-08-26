@@ -7,12 +7,12 @@ function check() {
       return ;
     }
     else {
-      window.open('turngexpress.github.io/404','_self');
+      window.open('/404','_self');
     }
   }
   else {
     if(ans) {
-      window.open('turngexpress.github.io/404','_self');
+      window.open('/404','_self');
     }
     else {
       return ;

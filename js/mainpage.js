@@ -1,6 +1,6 @@
 function check() {
   var arr = ['我不是人类', '我是人类'];
-  var isPeople = Boolean(floor(Math.random()));
+  var isPeople = Boolean(Math.floor(Math.random()));
   var ans = confirm(arr[Number(isPeople)]);
   if(isPeople) {
     if(ans) {

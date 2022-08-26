@@ -31,15 +31,14 @@ if(!is_callable('curl_init')){
 
 //必选项
 define("TYPE","GITHUB");//选择github
-//define("TYPE","GITEE");//选择gitee，如果使用gitee，需要手动建立master分支，可以看这里 https://gitee.com/help/articles/4122
 
-define("USER","pic-cdn");//你的GitHub/Gitee的用户名
+define("USER","turingexpress");//你的GitHub/Gitee的用户名
 
-define("REPO","cdn2");//必须是上面用户名下的 公开仓库
+define("REPO","picture");//必须是上面用户名下的 公开仓库
 
-define("MAIL","yumusb@foxmail.com");//邮箱无所谓，随便写
+define("MAIL","turingexpress@outlook.com");//邮箱无所谓，随便写
 
-define("TOKEN","213");
+define("TOKEN","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");
 // Github 去这个页面 https://github.com/settings/tokens生成一个有写权限的token（repo：Full control of private repositories 和write:packages前打勾）
 // gitee  去往这个页面 https://gitee.com/personal_access_tokens
 
